@@ -1,6 +1,6 @@
 # Epistemic-Risk-Seeking Actor-Critic (ERSAC)
 
-This repository provides an implementation of the **Epistemic-Risk-Seeking Actor-Critic (ERSAC)** algorithm, as introduced in [ERSAC](https://arxiv.org/abs/2302.09339), applied to the **DeepSea** environment [bsuite](https://arxiv.org/abs/1908.03568).
+This repository provides an implementation of the **Epistemic-Risk-Seeking Actor-Critic (ERSAC)** algorithm, as introduced in [ERSAC](https://arxiv.org/abs/2302.09339), applied to the **DeepSea** environment introduced in [bsuite](https://arxiv.org/abs/1908.03568).
 
 A full list of package versions used in our Conda environment is provided to ensure reproducibility.
 
