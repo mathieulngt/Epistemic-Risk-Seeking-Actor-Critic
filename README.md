@@ -13,8 +13,8 @@ To train ERSAC with **uncertainty estimation based on explicit (state, action) v
 ```python
 training_data = run_ersac(
     noise_probability=0,
-    seed=SEED,
-    depth=i,
+    seed=42,
+    depth=10,
     learning_rate=0.001,
     gradient_clipping=5,
     init_tau=0.1,
@@ -22,7 +22,7 @@ training_data = run_ersac(
     pow_seen_pairs=2,
     Lambda=0.8,
     uncertainty_scale=1,
-    n_episode=100000,
+    n_episode=10000,
     mid_size=200,
     reward_estimation=False,
     n_heads=10,
